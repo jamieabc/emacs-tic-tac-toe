@@ -5,8 +5,8 @@
 ;;; 6 | 7 | 8
 
 ;;; start game
-(defun tic-tac-toc-start ()
-  "Start to play tic-tac-toc."
+(defun tic-tac-toe-start ()
+  "Start to play tic-tac-toe."
   (interactive)
   (switch-to-buffer "tic-tac-toe")
   (tic-tac-toe-mode)
